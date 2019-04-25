@@ -10,21 +10,22 @@
 <body>
   
   <h1>Square Root</h1>
-    <p>Input a number:</p>
+   
+  <p>Input a number:</p>
     
-    <input id="test"><br />
+  <input id="test"><br />
   
-  <button> type="button" onclick="find_root()" value="here">Get Root</button>
+  <button>type="button" onclick="find_root()">Get Root</button>
   
   <script type="text/javascript">
-  function find_root() {
-    var num;
-    var root;
+    function find_root() {
+      var num;
+      var root;
    
-    num = prompt("Find the square root of what number? ");
-    root = Math.sqrt(num);
-    alert("The square root of " + num + " is " + root );
-    }
+      num = prompt("Find the square root of what number? ");
+      root = Math.sqrt(num);
+      alert("The square root of " + num + " is " + root );
+      }
   </script>
   
 </body>
